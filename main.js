@@ -2,13 +2,15 @@
  Scrivi un algoritmo per trovare il più grande tra due numeri interi.
 */
 
-/*const numeroGrande1 = 1;
+const numeroGrande1 = 2;
 const numeroGrande2 = 2;
 
-/*if (numeroGrande1 > numeroGrande2) {
-  console.log("Il numero piu grande e :" ($ {numeroGrande1}));
+if (numeroGrande1 > numeroGrande2) {
+  console.log("Il  primo numero  è piu grande :", numeroGrande1);
+} else if (numeroGrande2 > numeroGrande1) {
+  console.log("Il secondo numero è piu grande : ", numeroGrande2);
 } else {
-  console.log("Il numero piu grande e : ${numeroGrande2}");
+  console.log("I numeri sono uguali");
 }
 
 /* SCRIVI QUI LA TUA RISPOSTA */
@@ -17,7 +19,7 @@ const numeroGrande2 = 2;
   Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
 */
 
-/*const numeroFornito = 6;
+const numeroFornito = 6;
 
 if (numeroFornito !== 5) {
   console.log("not equal");
@@ -28,7 +30,7 @@ if (numeroFornito !== 5) {
 /* ESERCIZIO 3
   Scrivi un algoritmo che mostri "divisibile per 5" in console se un numero fornito è perfettamente divisibile per 5 (suggerimento: usa l'operatore modulo)
 */
-/*const numeroDivisibile = 20;
+const numeroDivisibile = 20;
 if (numeroDivisibile % 5 === 0) {
   console.log(" e divisibile per 5");
 }
@@ -37,13 +39,13 @@ if (numeroDivisibile % 5 === 0) {
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
 */
 
-const numeroIntero1 = 4;
+/*const numeroIntero1 = 4;
 const numeroIntero2 = 8;
 
 if (numeroIntero1 === 8 || numeroIntero2 === 8) {
   console.log("uno dei numeri è 8");
-  // } else ( numeroIntero1 + numeroIntero2 === 8 || numeroIntero1 - numeroIntero2 === 0) {
-  //console.log("L'addizione/sottrazione dei due numeri è uguale a 8")
+} else if (numeroIntero1 + numeroIntero2 === 8 || numeroIntero1 - numeroIntero2 === 0) {
+  console.log("L'addizione/sottrazione dei due numeri è uguale a 8");
 }
 
 /* ESERCIZIO 5
@@ -67,8 +69,12 @@ if (numeroIntero1 === 8 || numeroIntero2 === 8) {
   Alla fine mostra il risultato in console.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+const val1 = 2;
+const val2 = 4;
+const val3 = 6;
 
+if (val1) {
+}
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
